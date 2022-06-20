@@ -1,0 +1,21 @@
+#### Uputstvo za korišćenje aplikacije ####
+
+1. Zipovan fajl ekstraktujte
+	1.1 Ako nije automatski ekstraktovao zip fajlove .server i .app-hotel, ekstraktujte iz u zasebne foldere
+2. Udjite u folder .server koji ste ekstraktovali, i odatle pokrenite terminal
+   Ako nemate opciju da pokrenete terminal iz foldera, otvorite terminal posebno i komandom cd idite na putanju foldera
+	2.1 Pokrenite sledece komande radi pokretanja servera
+		
+		> npm install
+		> nodemon app
+		
+		# Trebalo bi da se server uspesno pokrenuo
+3. Za pokretanje frontend servera
+	3.1 Udjite u folder .app-hotel koji ste ekstraktovali, i odatle pokrenite terminal
+	Ako nemate opciju da pokrenete terminal iz foldera, otvorite terminal posebno i komandom cd idite na putanju foldera
+		3.2 Pokrenite sledece komande radi pokretanja servera
+		
+		> npm install
+		> npm run serve
+		
+		# Trebalo bi da se server vrti na localhost:8080 , link koji vam se prikaze prekopirajte u svoj browser, prikazace vam se stranica aplikacije
